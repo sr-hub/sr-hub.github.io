@@ -1,6 +1,6 @@
 {
-    "title": "Stylish Portfolio",
-    "name": "startbootstrap-stylish-portfolio",
+    "title": "Spencer Ross Portfolio built on Stylish Portfolio",
+    "name": "spencer-ross-portfolio",
     "version": "5.0.7",
     "scripts": {
         "start": "node_modules/.bin/gulp watch"
@@ -31,6 +31,7 @@
     "dependencies": {
         "@fortawesome/fontawesome-free": "5.10.2",
         "bootstrap": "4.3.1",
+        "grunt": "^1.0.4",
         "jquery": "3.4.1",
         "jquery.easing": "^1.4.1",
         "simple-line-icons": "^2.4.1"
