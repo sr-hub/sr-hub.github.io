@@ -1,7 +1,7 @@
 /*!
- * Start Bootstrap - Stylish Portfolio v5.0.7 (https://startbootstrap.com/template-overviews/stylish-portfolio)
- * Copyright 2013-2019 Start Bootstrap
- * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-stylish-portfolio/blob/master/LICENSE)
+ * Start Bootstrap - Spencer Ross Portfolio built on Stylish Portfolio v5.0.7 (https://startbootstrap.com/template-overviews/stylish-portfolio)
+ * Copyright 2013-2020 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/spencer-ross-portfolio/blob/master/LICENSE)
  */
 
 body,
@@ -93,7 +93,7 @@ h6 {
   height: auto;
   padding-top: 8rem;
   padding-bottom: 8rem;
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/bg-masthead.jpg");
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("https://unsplash.com/photos/xSfrOv6x7uQ");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -231,6 +231,7 @@ h6 {
   position: relative;
   overflow: hidden;
   max-width: 530px;
+  max-height: 225px;
   margin: auto auto 1rem;
 }
 
@@ -282,14 +283,28 @@ h6 {
     clip-path: inset(-1px);
   }
   .portfolio-item:hover img {
-    -webkit-clip-path: inset(2rem);
-    clip-path: inset(2rem);
+    /* -webkit-clip-path: inset(1rem 1rem 5.3rem 1rem);
+    clip-path: inset(1rem 1rem 5.3rem 1rem); */
   }
+
   .portfolio-item:hover .caption {
     background-color: rgba(29, 128, 159, 0.9);
-    -webkit-clip-path: inset(2rem);
-    clip-path: inset(2rem);
+    /* -webkit-clip-path: inset(1rem);
+    clip-path: inset(1rem); */
   }
+}
+
+.portfolio-item .fill {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.portfolio-item .fill img {
+  flex-shrink: 0;
+  min-width: 100%;
+  min-height: 100%;
 }
 
 footer.footer {
